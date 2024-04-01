@@ -7,6 +7,6 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-
+import Cart from "./component/cart.jsx";
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Cart cantidad = '5' />, document.querySelector("#app"));
